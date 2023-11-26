@@ -3,9 +3,10 @@ const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCmS75G-98QihSu
 
 const content = null || document.getElementById('content');
 
+//Test User for RapidAPI
 const options = {
 	method: 'GET',
-	headers: {
+    headers: {
 		'X-RapidAPI-Key': 'd59adb76bamshac7cafbff673f7ap14f423jsn93808f0e2f91',
 		'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
 	}
